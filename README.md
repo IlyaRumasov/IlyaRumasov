@@ -47,7 +47,7 @@
 | [**hr-automation-candidate-onboarding**](https://github.com/IlyaRumasov/hr-automation-candidate-onboarding) | Створює акаунти в AD, шле вітальні листи, сповіщає про зміну статусу. Один проаналізований ШІ тікет на збій замість тікета на кожну спробу. | 61 сценарій на заглушках, mutation checks, живі тести знайшли помилку, якої заглушки не бачили |
 | [**ai-audio-qa-pipeline-evolution**](https://github.com/IlyaRumasov/ai-audio-qa-pipeline-evolution) | QA датасетів мовлення: сліпа транскрипція, потім порівняння текстів (WER/CER). Синхронний режим і пакетний на Vertex AI. | 48/48 тестів, проаналізовано датасет понад 150 тис. рядків |
 | [**telegram-prompt-architect**](https://github.com/IlyaRumasov/telegram-prompt-architect-multimodal-ai-agent) | Telegram-бот: текст або голос на вході, готовий промпт для ChatGPT, Claude чи Gemini на виході. Режими, мови, добові ліміти. | 60 автотестів |
-| [**ai-entity-matching-nomenclature**](https://github.com/IlyaRumasov/ai-entity-matching-nomenclature) | LLM розбирає «брудні» назви позицій ERP, а оцінку збігу рахує детермінований код. | На 132 рядках: 7 збігів, усі правильні (попередній підхід лише з LLM: 18, з них 11 хибних) |
+| [**enterprise-rag-documindy**](https://github.com/IlyaRumasov/enterprise-rag-documindy) | Корпоративний асистент у Google Chat: відповідає за базою внутрішніх PDF-регламентів (n8n, Flowise, Qdrant, Gemini) і вказує файл та сторінку. Якщо відповіді в документах немає, чесно відмовляє. | 87 документів у базі, 42 регресійні запитання: джерело в топ-3 у 38 з 38, чесна відмова 4 з 4 |
 
 ## Стек
 
